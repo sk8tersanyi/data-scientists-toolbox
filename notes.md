@@ -14,5 +14,13 @@ Egy komplett adatelemzés megcsinálása a következő pontokból kell álljon (
 * A _mehcanisztikus analízis_ lényege, hogy az egyes változókban bekövetkező pontos változások hatásait vizsgáljuk más változókban. Egyszerű és speciális esetektől eltekintve nagyon nehéz ilyenfajta következtetéseket levonni. Ilyen kérdések főként mérnöki és fizikai problémák során merülhetnek fel. Itt bármiféle véletlenszerűség az adatokban már mérhető hibának számít, amit nem igazán szeretünk.
 
 ## Mit nevezünk adatnak
+A Wikipedia szerint az adat nem más, mint minőségi, illetve mennyiségi értékeket reprezentáló változók objektumok egy halmazából. Ne tévesszen meg senkit, hogy általában szöveges fájlokat kapunk egy adatelemzéshez. Előfordulhat, hogy az adathalmaz videók egy sorozata ( például a gépi tanulásnál az adatbázis videók egy csoportja, amiből tud a gép következtetni ), vagy hangfájlok csoportja ( http://en.wikipedia.org/wiki/DarwinTunes - ez nagyon érdekes érdemes tovább bogarászni ).
 
+Fontos megjegyezni, hogy minden adatelemzésnél, a legofntosabb tényező nem az adatbázis, hanem maga a kérdés melyre a választ keressük - csak ezutá következik a sorban maga az adat. Előfordulhat, hogy az adat maga csak korlátozza, vagy épp lehetővé teszi a kérdés feltételét.
 
+## Mi az a BIG DATA
+Ez alatt olyan adatbázist, vagy adathalmazt értünk, mely akkora, hogy fizikailag képtelenség lokálisan elemezni ( túl nagy tárhelyet foglalna el egy számítógépen ). Persze ez a mennyiségi jellemző idővel mindig egyre többet és többet takar - elég csak belegondolni, hogy anno mi kellett 512MB eltárolásához. Ebből és további körülményekből látható ( Stanley Milgram - 6 degrees separation ), hogy mára az aktuálisnak megfelelően hatalmas mennyiségű adatot tudunk begyűjteni hihetetlenül olcsón. Pont itt jön képbe a BIG DATA.
+
+Szemrevételezendő, hogy fontos belőni mi is számít sima adatbézisnak és mi az amikor már BIG DATA-ról beszélhetünk. Ezen nagy mennyiségű esetben is rengeteg lehetőségünk vagy adatkezelésre, például: HADOOP keretrendszerrel. Továbbá az is igaz, hogy előfordulhat az hogy az adatunk a mérete ellenére mégsem tartalmazza a megfelelő válaszokat - azaz a méret nem minden.
+
+## Tervezés
