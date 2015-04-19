@@ -24,3 +24,7 @@ Ez alatt olyan adatbázist, vagy adathalmazt értünk, mely akkora, hogy fizikai
 Szemrevételezendő, hogy fontos belőni mi is számít sima adatbézisnak és mi az amikor már BIG DATA-ról beszélhetünk. Ezen nagy mennyiségű esetben is rengeteg lehetőségünk vagy adatkezelésre, például: HADOOP keretrendszerrel. Továbbá az is igaz, hogy előfordulhat az hogy az adatunk a mérete ellenére mégsem tartalmazza a megfelelő válaszokat - azaz a méret nem minden.
 
 ## Tervezés
+A lényeg az, hogy minden egy egy ilyen elemzés előtt mindent meg kell tervezni, hogy hogyan is legyen.
+* Az első dolog az analízis tervezetét meghatározni, szem előtt tartva, hogy eredményünket nem feltétlenül statisztikai tudással rendelkezők fogják olvasni. Azaz minden felhasznált módszert fel kell tüntetni - nem csak magánál az analízisnál felhasználtakra kell itt gondolni, ugyanúgy fontos az adatgyűjtés, adattisztítás, ... stb.
+* Azt is érdemes átgondolni, hogy hol akarod az adatot és a kódot megosztani ( kisebb elemzések esetén jó lehet a github, de ha már összetettebb akkor http://figshare.com/ az ajánlott ). Ha nincs ilyen tervezet akkor itt lehet találni egy sztenderdet: http://github.com/jtleek/datasharing .
+* Ezek után magát a kérdést kell meghatározni és formálisan megadni. Maga a folyamat nem meglepő: a szóbajöhető populációbál mintát veszünk, ezt a mintát elemezzük ( több szempontból akár ) majd statisztikai következtetéseket vonunk le az egész populációt illetően.
